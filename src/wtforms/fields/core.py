@@ -755,7 +755,7 @@ class DecimalField(LocaleAwareNumberField):
             )
 
         if places is unset_value:
-            places = 2
+            places = 5
         self.places = places
         self.rounding = rounding
 
